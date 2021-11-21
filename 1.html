@@ -1,0 +1,831 @@
+<!DOCTYPE html id-ID>
+<html lang=en">
+
+<head id="head" aria-busy="true" translate="yes" lang="id" accesskey="a">
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="widht=device-widht, initial-scale1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <meta name="robots" content="noimageindex, noarchive">
+  <meta name="robots" content="max-image-preview:large">
+  <meta name="Bot-https" content="DataSet-Sql">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="shortcut icon" href="/ico/pokemon 2.ico" type="image/x-icon">
+  <title>Mycompany.me</title>
+  <!-- tag css -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link href="/css/1.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+  <style nonce="color: #25d366;"></style>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    html:focus {
+      outline: none;
+    }
+
+    /* body css and html */
+    body {
+      padding: 0;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+
+    body.darkmode {
+      background: rgb(57, 57, 57);
+      color: rgb(227, 227, 227);
+    }
+
+    html {
+      src: img(imgcenter);
+    }
+
+    html.dark-theme {
+      color: #000;
+      background-color: #000;
+    }
+
+
+    body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+  </style>
+  <!-- tag script Atas -->
+  <script type="text/jsonData" src="/json/nodejaringan.json"></script>
+  <script type="text/javascript" name="cookie">
+    function setCookie(cname, cvalue, exdays) {
+      const d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      let expires = "expires=" + d.toGMTString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      let name = cname + "=";
+      let decodedCookie = decodeURIComponent(document.cookie);
+      let ca = decodedCookie.split(';');
+      for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    function checkCookie() {
+      let user = getCookie("username");
+      if (user != "") {
+        alert("Welcome again " + user);
+      } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+          setCookie("username", user, 30);
+        }
+      }
+    }
+
+    //cookie 2
+
+    var docCookies = {
+      getItem: function (sKey) {
+        return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
+      },
+      setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+        if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
+        var sExpires = "";
+        if (vEnd) {
+          switch (vEnd.constructor) {
+            case Number:
+              sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
+              break;
+            case String:
+              sExpires = "; expires=" + vEnd;
+              break;
+            case Date:
+              sExpires = "; expires=" + vEnd.toUTCString();
+              break;
+          }
+        }
+        document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+        return true;
+      },
+      removeItem: function (sKey, sPath, sDomain) {
+        if (!sKey || !this.hasItem(sKey)) { return false; }
+        document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "");
+        return true;
+      },
+      hasItem: function (sKey) {
+        return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+      },
+      keys: /* optional method: you can safely remove it! */ function () {
+        var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
+        for (var nIdx = 0; nIdx < aKeys.length; nIdx++) { aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]); }
+        return aKeys;
+      }
+    };
+  </script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" onload="checkCookie()" accesskey="admin">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <i class='bx bx-food-menu' style="font-size: 35px;"></i>
+        </button>
+        <a class="navbar-brand" href="">
+          <b></b>
+        </a>
+        <a class="navbar-brand" href="">
+          <p>
+            <img src="/img/pokemon.jpeg" width="30px">
+          </p>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="active" href="#myPage"><i class='bx bxs-home' style="font-size: 19px;"></i></a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              dropdown
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#foto">FOTO</a></li>
+              <li><a href="#github save">GitHub save</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              website
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="/ico/ico.htm">1</a></li>
+              <li><a href="/img/img.htm">2</a></li>
+              <li><a href="/html/profile.html">3</a></li>
+              <li><a href="/html/coba.html">4</a></li>
+              <li><a href="/html/test.html">5</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="search">
+    <div class="jumbotron text-center">
+      <form>
+        <br>
+        <br>
+        <div class="input-group">
+          <input type="search" class="form-control" size="50" placeholder="Search" required>
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-danger" title="Search"><i class='bx bx-search-alt-2'
+                style='font-size: 25px;  color:#fff'></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div class="text-center"><a href="#footer"><i class='bx bx-chevrons-down'
+        style="font-size: 20px; color: #000;"></i></a></div>
+
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="/img/ezgif.com-gif-maker.png" alt="Work" width="70%" height="50%">
+        <div class="carousel-caption">
+          <h3>Work</h3>
+          <p>The atmosphere in New York is lorem ipsum.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/img/ezgif.com-gif-maker.png" alt="Chicago" width="70%" height="50%" style="align-items: center;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago - A night we won't forget.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/img/ezgif.com-gif-maker.png" alt="Los Angeles" width="70%" height="50%">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- dark mode -->
+  <div id="theme" class="text-right">
+    <div onclick="setDarkMode(true)" id="darkBtn" class=""> <i class='bx bx-moon' style="font-size: 30px;"></i> </div>
+    <div onclick="setDarkMode(false)" id="lightBtn" class="is-hidden"> <i class='bx bxs-sun'
+        style="font-size: 30px;"></i> </div>
+  </div>
+
+  <script>
+    function setDarkMode(isDark) {
+      var darkBtn = document.getElementById('darkBtn')
+      var lightBtn = document.getElementById('lightBtn')
+
+      if (isDark) {
+        lightBtn.style.display = "block"
+        darkBtn.style.display = "none"
+      } else {
+        lightBtn.style.display = "none"
+        darkBtn.style.display = "block"
+      }
+
+      document.body.classList.toggle("darkmode");
+    }
+  </script>
+
+  <!-- profile -->
+  <section id="profile">
+    <div class="container-fluid bg-1 text-center">
+      <h3 class="margin">Who Am I?</h3>
+      <img src="/img/pokemon.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Bird"
+        width="350" height="350">
+      <h3>I'm an adventurer</h3>
+    </div>
+
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center">
+      <h3 class="margin">What Am I?</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </p>
+      <a href="#search" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </a>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center">
+      <h3 class="margin">Where To Find Me?</h3><br>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <img src="/img/ezgif.com-gif-maker.png" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <img src="/img/ezgif.com-gif-maker.png" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <img src="/img/ezgif.com-gif-maker.png" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <br><br><br>
+  <!-- foto -->
+  <section id="foto">
+    <div class="img-rounded img-circle sr-only-focusable">
+      <div class="text-center judul"><b>Media</b></div>
+      <video width="240" height="140" controls>
+        <source src="/video/video 2.mp4" type="video/mp4">
+      </video>
+      <video width="240" height="140" controls>
+        <source src="/video/Coldplay - Paradise (Official Video)-(480p).mp4" type="video/mp4">
+      </video>
+      <audio controls>
+        <source src="/audio/Last Child  DUKA Official Lyric Video.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <br><br>
+    <br><br>
+    </div>
+    <br><br><br>
+  </section>
+
+  <!-- github save -->
+  <div id="services" class="container-fluid text-center">
+    <h2>SERVICES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-off logo-small"></span>
+        <h4>POWER</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <h4>LOVE</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <h4>JOB DONE</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <h4>GREEN</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <h4>CERTIFIED</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <h4 style="color:#303030;">HARD WORK</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal signup -->
+  <div class="modal fade" id="myModalsignup" role="dialog">
+    <div class="modal-dialog">
+
+
+      <!-- modal sign up content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><i class='bx bxs-user-plus'></i></span> Sign Up</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <div class="form-group">
+              <label for="psw"><i class='bx bx-user'></i>Email</label>
+              <input type="email" class="form-control" id="psw" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <label for="uname"><i class='bx bx-user'></i>Username</label>
+              <input type="text" class="form-control" id="uname" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+              <label for="pass"><i class='bx bxs-key'></i></i>Password</label>
+              <input type="password" class="form-control" id="pass" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+              <label for="pass"><i class='bx bxs-key'></i></i>repeat password</label>
+              <input type="password" class="form-control" id="pass" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+              <label for="pass"><i class='bx bxl-dropbox'></i></i></i>Your WebSiteName</label>
+              <input type="text" class="form-control" id="pass" placeholder="https://www.WebSiteName.me" required>
+            </div>
+            <input type="checkbox" class="form-check-input" id="flexCheckChecked" checked>
+            <button type="submit" class="btn btn-block">Sign UP
+              <i class='bx bxs-user-plus'></i>
+            </button>
+            <p class="text-center"><b>OR</b></p>
+            <!-- tag media sosial-->
+            <button type="submit" class="btn btn-block">Facebook
+              <i class='bx bxl-facebook' style='color:#1c39cd'></i>
+            </button>
+            <button type="submit" class="btn btn-block">Google
+              <i class='bx bxl-google' style='color:red'></i>
+            </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- modal login -->
+  <div class="modal fade" id="myModallogin" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- modal login content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-log-in"></span> Login </h4>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <div class="form-group">
+              <label for="id"><i class='bx bx-user'></i>ID</label>
+              <input type="number" class="form-control" id="id" placeholder="ID" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"><i class='bx bx-user'></i>Email / Name</label>
+              <input type="text" class="form-control" id="psw" placeholder="Email / Name" required>
+            </div>
+            <div class="form-group">
+              <label for="pass"><i class='bx bx-key'></i>Password</label>
+              <input type="password" class="form-control" id="pass" placeholder="Password" required>
+            </div>
+
+            <button type="submit" class="btn btn-block">Login
+              <i class='bx bx-log-in' undefined style="font-size: 15px;"></i>
+            </button>
+            <p class="text-center"><b>OR</b></p>
+            <!-- tag media social login -->
+            <button type="submit" class="btn btn-block">Facebook
+              <i class='bx bxl-facebook' style='color:#1c39cd'></i>
+            </button>
+            <button type="submit" class="btn btn-block">Google
+              <i class='bx bxl-google' style='color:red'></i>
+            </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <!-- chat popup -->
+  <section id="chat">
+    <a class="chat open-button" onclick="openForm()" title="Chat pop up"><i class='bx bx-chat bx-tada bx-rotate-90'
+        style="text-align: center !important; font-size: 30px;"></i></a>
+
+
+    <div class="chat-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+
+
+        <div class="profile-chat">
+          <img class="imgcenter" src="/img/pokemon.jpeg" width="50px">
+          <div class="namecenter">
+            <b>
+              <address class="text-center">Admin</address>
+            </b>
+          </div>
+        </div>
+        <time class="text-center">
+          <b>
+            <p id="date"></p> 
+            <p id="clock"></p>
+          </b>
+        </time>
+        <label for="msg"><b>Message : </b></label>
+        <textarea placeholder="Type message.." name="msg" class="form-control" required></textarea>
+        <input type="text" class="form-control" placeholder="kepada" required>
+
+        <button type="submit" class="btn" translate="yes" data-target="_blank" id="button" title="send"><i
+            class='bx bx-send' style='font-size: 29px; color:#25ea10'></i></button>
+        <button type="button" class="btn cancel" onclick="closeForm()" title="Close"><i class='bx bx-x bx-spin'
+            style="font-size: 30px; color: #e10b2b;"></i></button>
+      </form>
+    </div>
+    <!-- tag style css -->
+    <style>
+      #clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+    </style>
+    <!-- tag script chat popup-->
+    <script>
+     window.onload = setInterval(clock,1000);
+
+function clock()
+{
+var d = new Date();
+
+var date = d.getDate();
+
+var month = d.getMonth();
+var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+month=montharr[month];
+
+var year = d.getFullYear();
+
+var day = d.getDay();
+var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+day=dayarr[day];
+
+var hour =d.getHours();
+  var min = d.getMinutes();
+var sec = d.getSeconds();
+
+document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+}
+    </script>
+
+    <script type="text/javascript">
+      // button 
+      function button() {
+        if (CustomElementRegistry);
+      }
+
+    </script>
+    <script type="text/javascript">
+      function currentTime() {
+  var date = new Date(); /* creating object of Date class */
+  var hour = date.getHours();
+  var min = date.getMinutes();
+  var sec = date.getSeconds();
+  var midday = "AM";
+  midday = (hour >= 12) ? "PM" : "AM"; /* assigning AM/PM */
+  hour = (hour == 0) ? 12 : ((hour > 12) ? (hour - 12): hour); /* assigning hour in 12-hour format */
+  hour = updateTime(hour);
+  min = updateTime(min);
+  sec = updateTime(sec);
+  document.getElementById("clock").innerText = hour + " : " + min + " : " + sec + " " + midday; /* adding time to the div */
+    var t = setTimeout(currentTime, 1000); /* setting timer */
+}
+
+function updateTime(k) { /* appending 0 before time elements if less than 10 */
+  if (k < 10) {
+    return "0" + k;
+  }
+  else {
+    return k;
+  }
+}
+
+currentTime();
+    </script>
+
+    <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+    </script>
+  </section>
+
+  <!-- tempat test -->
+  <section id="tmst">
+    <!-- body/conten -->
+  
+    <!-- tag style -->
+    <style>
+  
+    </style>
+    <!-- tag script -->
+    <script type="text/javascript">
+      
+    </script>
+    <!----------------->
+  </section>
+
+  <!-- My Averge Day-->
+  <section id="Day">
+    <div class="well-lg">
+      <div class="row-no-gutters">
+        <div class="text-center">
+          <span class="open" contextmenu="ID">
+
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- comentar -->
+  <section id="comentar">
+    <c>
+      <form id="frmChat" action="#">
+        <div class="text-dekor">Commentar</div>
+        <div>
+          <a href="#" class="text-left"><img src="/img/pokemon.jpeg" width="50px"></a>
+          <div class="form-row">
+            <div class="col-7">
+              <br>
+              <label>Admin</label>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="comment" placeholder="COMMENTAR"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Enter </button>
+          </div>
+        </div>
+      </form>
+    </c>
+  </section>
+
+
+  <!-- footer -->
+  <section id="footer">
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- footer conten -->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer Content</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+            voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!-- section: text/link -->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-dark">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-dark">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class='bx bxl-facebook' style='color:#0002f1'></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class='bx bxl-twitter' style='color:#27bded'></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-google"><i class='bx bx-mail-send'
+              style='color:#e31818'></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class='bx bxl-instagram' style='color:#e40d5f'></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class='bx bxl-linkedin' style='color:#0e76a8'></i></a>
+        <!-- Github -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class='bx bxl-github' style='color:#090909'></i></a>
+      </section>
+      <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Register for free</span>
+          <button type="button" class="btn btn-outline-light btn-rounded text-danger" data-toggle="modal"
+            data-target="#myModalsignup">
+            Sign up!
+          </button>
+          <span class="me-3">Login for free</span>
+          <button type="button" class="btn btn-outline-light btn-rounded text-danger" data-toggle="modal"
+            data-target="#myModallogin">
+            Login!
+          </button>
+        </p>
+      </section>
+
+      <!-- Copyright -->
+      <div class="panel-footer text-center">
+        <a href="#myPage" title="To Top" style="color: #DA7508; font-size: 40px;">
+          <i class='bx bx-up-arrow-alt'></i>
+        </a>
+        <p style="font-size: 17px;">© Copyright By <a href="#" data-toggel="toltip" title="By A.Gru.Dev">A.Github
+            Save</a>
+        </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </section>
+
+  <!-- script tag bawah-->
+  <section id="script">
+    <!-- tag script -->
+    <script type="text/jsonData" src="/json/cookies.json"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-graph.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-data-adapter.min.js"></script>
+    <!-- script -->
+    <script type="text/javascript">
+      function NotImplementedError(message = "") {
+        this.name = "NotImplementedError";
+        this.message = message;
+      }
+      NotImplementedError.prototype = Error.prototype;
+
+      function NotImplementedError2(message = "") {
+        this.message = message;
+      }
+      NotImplementedError2.prototype = new Error();
+
+      try {
+        var e = new NotImplementedError("NotImplementedError message");
+        throw e;
+      } catch (ex1) {
+        console.log(ex1.stack);
+        console.log("ex1 instanceof NotImplementedError = " + (ex1 instanceof NotImplementedError));
+        console.log("ex1 instanceof Error = " + (ex1 instanceof Error));
+        console.log("ex1.name = " + ex1.name);
+        console.log("ex1.message = " + ex1.message);
+      }
+
+      try {
+        var e = new NotImplementedError2("NotImplementedError2 message");
+        throw e;
+      } catch (ex1) {
+        console.log(ex1.stack);
+        console.log("ex1 instanceof NotImplementedError2 = " + (ex1 instanceof NotImplementedError2));
+        console.log("ex1 instanceof Error = " + (ex1 instanceof Error));
+        console.log("ex1.name = " + ex1.name);
+        console.log("ex1.message = " + ex1.message);
+      }
+    </script>
+
+    <!-- tag inf -->
+
+  </section>
+</body>
+
+</html>
