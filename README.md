@@ -90,7 +90,7 @@
 <br/>
 
 ## Top Open Source -
-[![anime-list](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=anime-list&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/anime-list)
+[![anime-list](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=animeandmanga&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/anime-list)
 [![mfikria Portofolio](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=mfikria&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/mfikria)
 [![api-mfikria](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=api-mfikria&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/api-mfikria)
 [![Al Siam Teminal](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=gabut-1&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/gabut-1)
