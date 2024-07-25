@@ -116,8 +116,8 @@
 </p>
 
 <a> 
-    <a href="https://github.com/dodokjr"><img alt="Al Siam's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=dodokjr&show_icons=true&count_private=true&theme=react&border_color=00083B&bg_color=00083B&title_color=DAD0FEF&icon_color=F5E572" height="192px" width="49.5%"/></a>
-  <a href="https://github.com/dodokjr"><img alt="Al Siam's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=dodokjr&langs_count=8&layout=compact&theme=react&border_color=00083B&bg_color=00083B&title_color=DAD0FEF&icon_color=F5E572" height="192px" width="49.5%"/></a>
+    <a href="https://github.com/dodokjr"><img alt="Dodokjr Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=dodokjr&show_icons=true&count_private=true&theme=react&border_color=00083B&bg_color=00083B&title_color=DAD0FEF&icon_color=F5E572" height="192px" width="49.5%"/></a>
+  <a href="https://github.com/dodokjr"><img alt="Dodokjr Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=dodokjr&langs_count=8&layout=compact&theme=react&border_color=00083B&bg_color=00083B&title_color=DAD0FEF&icon_color=F5E572" height="192px" width="49.5%"/></a>
   <br/>
 </a>
 
