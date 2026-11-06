@@ -1,128 +1,109 @@
-### Hi Semuanya saya dodokjr 👋
+<div align="center">
 
-<h2 align="center">
-  Welcome to dodokjr or mfikria World!
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h2>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20,30,40&height=120&section=header&text=Muhammad%20Fikri%20Ardiyansah&fontSize=28&fontColor=ffffff&fontAlignY=50&animation=fadeIn&desc=Full-Stack%20Software%20Engineer%20&%20TypeScript%20Enthusiast&descSize=13&descAlignY=78" width="100%" />
 
+  <p align="center">
+    <a href="https://mfikria.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Website-09090B?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
+    </a>
+    <a href="https://www.linkedin.com/in/muhammad-fikri-ardiyansah/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://instagram.com/fkri.ardn" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="mailto:ffikri604@gmail.com">
+      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
 
-<p align="center">
-  <a href="https://github.com/dodokjr"><img src="https://readme-typing-svg.herokuapp.com?font=open+Sans&weight=100&size=22&pause=1000&color=ABB6F9&center=true&multiline=true&random=false&width=635&height=100&lines=this+is+me%2C+a+programmer;and+I'm+still+learning+about+programming+;I+also+like+games%2C+photographers%2C+and+brewing+coffee" alt="Typing SVG"></a>
-</p>
+</div>
 
+---
 
+### 🚀 About Me
 
-<img align="right" src="https://komarev.com/ghpvc/?username=dodokjr&label=Visitors&color=2836F0&style=flat" alt="Profile visitor" />
+<table width="100%">
+  <tr>
+    <td width="65%" valign="top">
+      👋 Hi there! I'm <b>Muhammad Fikri Ardiyansah</b> (aka <a href="https://mfikria.vercel.app">dodokjr</a>), a full-stack software engineer and developer based in <b>Indonesia</b>.<br><br>
+      💻 I specialize in the <b>JavaScript, TypeScript, and Go ecosystems</b>, building robust web architectures, scalable backend systems, and modern user interfaces.<br><br>
+      🌱 Currently exploring advanced backend automation, modular frameworks, and quantitative system patterns.<br><br>
+      ☕ When I'm not coding, you can find me enjoying coffee, exploring photography, or gaming.
+    </td>
+    <td width="35%" align="center" valign="middle">
+      <img src="https://komarev.com/ghpvc/?username=dodokjr&label=Profile%20Views&color=6e49f5&style=flat-square" alt="Visitor Count" />
+    </td>
+  </tr>
+</table>
 
+---
 
+### ⚡ Tech Stack & Ecosystem
 
-<!-- Intro  -->
-<h3 align="center">
-        <samp>&gt; Hey There!, I am
-                <b><a target="_blank" href="https://mfikria.vercel.app">Mfikria</a></b>
-        </samp>
-</h3>
+<div align="center">
 
+### **Languages & Core**
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 
-<p align="center"> 
-  <samp>
-    <a href="https://www.google.com/search?q=dodokjr">「 Google Me 」</a>
-    <br>
-    「 I am a full stack web application developer from <b>INDONESIA</b> 」
-    <br>
-    <br>
-  </samp>
-</p>
+### **Frontend & Mobile**
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" />
 
-<p align="center">
- <a href="https://mfikria.vercel.app" target="blank">
-  <img src="https://img.shields.io/badge/Website-67054C?style=for-the-badge&logo=medium&logoColor=white" alt="mfikria" />
- </a>
- <a href="https://www.linkedin.com/in/muhammad-fikri-ardiyansah/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="mfikria"/>
- </a>
- <a href="https://instagram.com/fkri__17" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-fe4164?style=for-the-badge&logo=instagram&logoColor=white" alt="alsiam" />
- </a> 
- <a href="https://www.facebook.com/muhammad.f.ardiyansah.16/" target="_blank">
-  <img src="https://img.shields.io/badge/Facebook-20BEFF?&style=for-the-badge&logo=facebook&logoColor=white" alt="alsiam"  />
-  </a> 
-</p>
-<br />
+### **Backend, Database & Tools**
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/Strapi-2E7EEA?style=for-the-badge&logo=strapi&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 
-<!-- About Section -->
- # About me
- 
-<p>
- <img align="right" width="350" src="giphy.gif" alt="giphy gif" />
-  
- 👨‍💻 &emsp; Enjoy Your Computer <br/><br/>
- 📧 &emsp; Mailto: <a href="mailto:ffikri604@gmail.com">ffikri604@gmail.com</a><br/><br/>
- 💬 &emsp; Ask me about anything [here](https://github.com/dodokjr/dodokjr/issues)
+</div>
 
-</p>
+---
 
-<br/>
-<br/>
-<br/>
+### 📂 Featured Open-Source Projects
 
-## Use To Code
+<div align="center">
 
-![Php](https://img.shields.io/badge/php-484C89?style=for-the-badge&labelColor=black&logo=php&logoColor=484C89)
-![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
-![Typescript](https://img.shields.io/badge/Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)
-![React](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Nodejs](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SASS Badge](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Ant-Design](https://img.shields.io/badge/AntDesign-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-092749?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4&labelColor=000000)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Strapi](https://img.shields.io/badge/strapi-2E7EEA?style=for-the-badge&logo=strapi&logoColor=white)
-![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+| Project & Repository | Tech Stack / Built With | Description | Quick Links |
+| :--- | :--- | :--- | :--- |
+| **🛡️ Flex-Auth**<br>*(Authentication Framework)* | `TypeScript` `JWT` `Modular` | Framework autentikasi modular berbasis TypeScript yang ringan dengan dukungan JWT, Refresh Token, dan OTP. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/Flex-Auth) |
+| **🌐 Mfikria Portfolio**<br>*(Personal Website)* | `Next.js` `TailwindCSS` `Vercel` | Portofolio pribadi interaktif dan dinamis untuk memamerkan karya serta dokumentasi API endpoint. | [![Live Demo](https://img.shields.io/badge/Live-000000?style=flat-square&logo=vercel&logoColor=white)](https://mfikria.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/mfikria) |
+| **🤖 AI Gateway**<br>*(AI Integration Hub)* | `Node.js` `TypeScript` `API` | Layanan gateway backend untuk mengintegrasikan berbagai penyedia kecerdasan buatan secara efisien. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/AI-Gateway) |
+| **🛒 App Kasir (GalaxyKasir)**<br>*(POS Web Application)* | `Next.js` `Google Sheets` | Aplikasi Point-of-Sale (POS) multi-cabang dengan pelacakan kehadiran kasir dan sistem izin multi-tier. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/App-Kasir) |
+| **📱 Apk Learning**<br>*(Mobile Learning Platform)* | `React Native` `TypeScript` | Aplikasi mobile interaktif untuk sinkronisasi data dan pembelajaran mandiri yang responsif. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/Apk-learning) |
+| **⚡ API Mfikria**<br>*(Backend API Service)* | `Node.js` `Express` `Database` | Kumpulan endpoint backend modular untuk mendukung berbagai layanan integrasi aplikasi web dan mobile. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/api-mfikria) |
 
-<br/>
-
-## Top Open Source -
-[![Apps_](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=Apps_&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/Apps_)
-[![mfikria Portofolio](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=mfikria&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/mfikria)
-[![api-mfikria](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=api-mfikria&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/api-mfikria)
-[![Al Siam Teminal](https://github-readme-stats.vercel.app/api/pin/?username=dodokjr&repo=gabut-1&border_color=00083B&bg_color=00083B&title_color=ffff&icon_color=ffff)](https://github.com/dodokjr/gabut-1)
-
-<p align="left">
-  <a href="https://github.com/dodokjr?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2A33A5?style=for-the-badge&logo=koding&logoColor=white"/></a>
-</p>
-
-<br/>
-<hr/>
-<br/>
+</div>
 
 <p align="center">
-  <a href="https://github.com/dodokjr">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=dodokjr&theme=tokyonight&hide_border=true&border_radius=5&mode=weekly" alt="dodokjr GitHub streak"/>
+  <a href="https://github.com/dodokjr?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20All%20Repositories-%E2%86%92-6e49f5?style=for-the-badge&logo=koding&logoColor=white" alt="All Repos" />
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/dodokjr">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dodokjr&theme=aura" alt="Dodokjr GitHub Contribution"/>
-  </a>
-</p>
+---
 
-<a> 
-    <a href="https://github.com/dodokjr"><img alt="Dodokjr Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=dodokjr&show_icons=true&count_private=true&theme=react&border_color=00083B&bg_color=00083B&title_color=DAD0FEF&icon_color=F5E572" height="192px" width="49.5%"/></a>
-  <a href="https://github.com/dodokjr"><img alt="Dodokjr Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=dodokjr&langs_count=8&layout=compact&theme=react&border_color=00083B&bg_color=00083B&title_color=DAD0FEF&icon_color=F5E572" height="192px" width="49.5%"/></a>
-  <br/>
-</a>
+### 📊 GitHub Stats & Metrics
 
+<div align="center">
 
-![Dodokjr Graph](https://github-readme-activity-graph.vercel.app/graph?username=dodokjr&custom_title=Dodokjr%27s%20GitHub%20Activity%20Graph&bg_color=00083B&color=6E49F5&line=6E49F5&point=6E49F5&area_color=0000&title_color=DAD0FE&area=true)
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=dodokjr&theme=tokyonight&hide_border=true&border_radius=10" alt="Streak Stats" />
 
+  <br/><br/>
 
-<img src="https://media.giphy.com/media/4QxQgWZHbeYwM/giphy.gif" alt="hi"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=dodokjr&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dodokjr&langs_count=6&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Top Langs" width="48%" />
+
+  <br/><br/>
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dodokjr&custom_title=Developer%20Activity%20Pulse&bg_color=1a1b26&color=6e49f5&line=6e49f5&point=7aa2f7&area_color=1a1b26&area=true&hide_border=true" width="100%" />
+
+</div>
