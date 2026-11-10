@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="Terima kasih sudah berkunjung">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5b4fd6"/>
+      <stop offset="0.55" stop-color="#d6457e"/>
+      <stop offset="1" stop-color="#1b8fc9"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9b0ff"/>
+      <stop offset="1" stop-color="#8fd6f5"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#g)" fill-opacity="0.35" d="M0 60 C200 20 400 100 600 60 S1000 20 1200 60 V140 H0Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 60 C200 20 400 100 600 60 S1000 20 1200 60 V140 H0Z;
+              M0 60 C200 100 400 20 600 60 S1000 100 1200 60 V140 H0Z;
+              M0 60 C200 20 400 100 600 60 S1000 20 1200 60 V140 H0Z"/>
+  </path>
+  <path fill="url(#g)" fill-opacity="0.6" d="M0 85 C250 55 450 115 700 85 S1000 55 1200 85 V140 H0Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0 85 C250 55 450 115 700 85 S1000 55 1200 85 V140 H0Z;
+              M0 85 C250 115 450 55 700 85 S1000 115 1200 85 V140 H0Z;
+              M0 85 C250 55 450 115 700 85 S1000 55 1200 85 V140 H0Z"/>
+  </path>
+  <rect y="108" width="1200" height="32" fill="#14141c"/>
+  <text x="600" y="128" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="url(#t)">Dibuat dengan ☕ &amp; TypeScript — terima kasih sudah mampir!</text>
+</svg>
