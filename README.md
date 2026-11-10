@@ -1,109 +1,218 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20,30,40&height=120&section=header&text=Muhammad%20Fikri%20Ardiyansah&fontSize=28&fontColor=ffffff&fontAlignY=50&animation=fadeIn&desc=Full-Stack%20Software%20Engineer%20&%20TypeScript%20Enthusiast&descSize=13&descAlignY=78" width="100%" />
+<img src="./assets/banner.svg" alt="Muhammad Fikri Ardiyansah — Full-Stack Software Engineer" width="100%" />
 
-  <p align="center">
-    <a href="https://mfikria.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/Website-09090B?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
-    </a>
-    <a href="https://www.linkedin.com/in/muhammad-fikri-ardiyansah/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://instagram.com/fkri.ardn" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    <a href="mailto:ffikri604@gmail.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-  </p>
+<br/>
+
+<a href="https://mfikria.vercel.app"><img src="https://img.shields.io/badge/Website-5b4fd6?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" /></a>
+<a href="https://www.linkedin.com/in/muhammad-fikri-ardiyansah/"><img src="https://img.shields.io/badge/LinkedIn-1b8fc9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://instagram.com/fkri.ardn"><img src="https://img.shields.io/badge/Instagram-d6457e?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="mailto:ffikri604@gmail.com"><img src="https://img.shields.io/badge/Email-1c1c27?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=B9B0FF&center=true&vCenter=true&width=640&lines=Building+robust+web+architectures;Scalable+backends+with+Node.js+%26+Go;Clean+UIs+with+React+%26+Next.js;Type-safe+everything+with+TypeScript" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=dodokjr&label=Profile%20Views&color=5b4fd6&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/dodokjr?style=flat-square&color=d6457e&labelColor=1c1c27&logo=github" alt="Followers" />
+<img src="https://img.shields.io/github/stars/dodokjr?style=flat-square&color=1b8fc9&labelColor=1c1c27&logo=github" alt="Stars" />
 
 </div>
 
----
+<br/>
 
-### 🚀 About Me
+## 🚀 Tentang Saya
 
 <table width="100%">
   <tr>
-    <td width="65%" valign="top">
-      👋 Hi there! I'm <b>Muhammad Fikri Ardiyansah</b> (aka <a href="https://mfikria.vercel.app">dodokjr</a>), a full-stack software engineer and developer based in <b>Indonesia</b>.<br><br>
-      💻 I specialize in the <b>JavaScript, TypeScript, and Go ecosystems</b>, building robust web architectures, scalable backend systems, and modern user interfaces.<br><br>
-      🌱 Currently exploring advanced backend automation, modular frameworks, and quantitative system patterns.<br><br>
-      ☕ When I'm not coding, you can find me enjoying coffee, exploring photography, or gaming.
+    <td width="64%" valign="top">
+
+👋 Halo! Saya **Muhammad Fikri Ardiyansah** (alias [dodokjr](https://mfikria.vercel.app)), full-stack software engineer yang berbasis di **Indonesia**.
+
+💻 Fokus di ekosistem **JavaScript, TypeScript, dan Go** — membangun arsitektur web yang kokoh, sistem backend yang scalable, dan antarmuka modern.
+
+🌱 Saat ini sedang mendalami *backend automation*, *modular framework*, dan *quantitative system patterns*.
+
+☕ Di luar coding: ngopi, fotografi, dan gaming.
+
+</td>
+    <td width="36%" valign="middle">
+
+```ts
+const fikri = {
+  role: "Full-Stack Engineer",
+  langs: ["TypeScript", "Go"],
+  focus: ["Backend", "Automation"],
+  fuel: "☕ coffee",
+  openToWork: true,
+} as const;
+```
+
+</td>
+  </tr>
+</table>
+
+<br/>
+
+## ⚡ Tech Stack
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="170"><b>🧠 Languages</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
     </td>
-    <td width="35%" align="center" valign="middle">
-      <img src="https://komarev.com/ghpvc/?username=dodokjr&label=Profile%20Views&color=6e49f5&style=flat-square" alt="Visitor Count" />
+  </tr>
+  <tr>
+    <td align="center"><b>🎨 Frontend &amp; Mobile</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+      <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>⚙️ Backend &amp; Data</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/Strapi-2E7EEA?style=for-the-badge&logo=strapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🛠️ Tools</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
     </td>
   </tr>
 </table>
 
----
-
-### ⚡ Tech Stack & Ecosystem
-
-<div align="center">
-
-### **Languages & Core**
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-
-### **Frontend & Mobile**
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" />
-
-### **Backend, Database & Tools**
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/Strapi-2E7EEA?style=for-the-badge&logo=strapi&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-
 </div>
 
----
+<br/>
 
-### 📂 Featured Open-Source Projects
+## 📂 Proyek Open-Source Pilihan
 
-<div align="center">
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
 
-| Project & Repository | Tech Stack / Built With | Description | Quick Links |
-| :--- | :--- | :--- | :--- |
-| **🛡️ Flex-Auth**<br>*(Authentication Framework)* | `TypeScript` `JWT` `Modular` | Framework autentikasi modular berbasis TypeScript yang ringan dengan dukungan JWT, Refresh Token, dan OTP. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/Flex-Auth) |
-| **🌐 Mfikria Portfolio**<br>*(Personal Website)* | `Next.js` `TailwindCSS` `Vercel` | Portofolio pribadi interaktif dan dinamis untuk memamerkan karya serta dokumentasi API endpoint. | [![Live Demo](https://img.shields.io/badge/Live-000000?style=flat-square&logo=vercel&logoColor=white)](https://mfikria.vercel.app) [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/mfikria) |
-| **🤖 AI Gateway**<br>*(AI Integration Hub)* | `Node.js` `TypeScript` `API` | Layanan gateway backend untuk mengintegrasikan berbagai penyedia kecerdasan buatan secara efisien. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/AI-Gateway) |
-| **🛒 App Kasir (GalaxyKasir)**<br>*(POS Web Application)* | `Next.js` `Google Sheets` | Aplikasi Point-of-Sale (POS) multi-cabang dengan pelacakan kehadiran kasir dan sistem izin multi-tier. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/App-Kasir) |
-| **📱 Apk Learning**<br>*(Mobile Learning Platform)* | `React Native` `TypeScript` | Aplikasi mobile interaktif untuk sinkronisasi data dan pembelajaran mandiri yang responsif. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/Apk-learning) |
-| **⚡ API Mfikria**<br>*(Backend API Service)* | `Node.js` `Express` `Database` | Kumpulan endpoint backend modular untuk mendukung berbagai layanan integrasi aplikasi web dan mobile. | [![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dodokjr/api-mfikria) |
+### 🛡️ [Flex-Auth](https://github.com/dodokjr/Flex-Auth)
+<sub>Authentication Framework</sub>
 
-</div>
+Framework autentikasi modular berbasis TypeScript yang ringan, dengan dukungan **JWT**, **Refresh Token**, dan **OTP**.
+
+<img src="https://img.shields.io/badge/TypeScript-5b4fd6?style=flat-square" /> <img src="https://img.shields.io/badge/JWT-d6457e?style=flat-square" /> <img src="https://img.shields.io/badge/Modular-1b8fc9?style=flat-square" />
+
+</td>
+    <td width="50%" valign="top">
+
+### 🌐 [Mfikria Portfolio](https://github.com/dodokjr/mfikria)
+<sub>Personal Website · [Live ↗](https://mfikria.vercel.app)</sub>
+
+Portofolio pribadi yang interaktif dan dinamis untuk memamerkan karya serta dokumentasi API endpoint.
+
+<img src="https://img.shields.io/badge/Next.js-5b4fd6?style=flat-square" /> <img src="https://img.shields.io/badge/TailwindCSS-d6457e?style=flat-square" /> <img src="https://img.shields.io/badge/Vercel-1b8fc9?style=flat-square" />
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### 🤖 [AI Gateway](https://github.com/dodokjr/AI-Gateway)
+<sub>AI Integration Hub</sub>
+
+Layanan gateway backend untuk mengintegrasikan berbagai penyedia kecerdasan buatan secara efisien.
+
+<img src="https://img.shields.io/badge/Node.js-5b4fd6?style=flat-square" /> <img src="https://img.shields.io/badge/TypeScript-d6457e?style=flat-square" /> <img src="https://img.shields.io/badge/API-1b8fc9?style=flat-square" />
+
+</td>
+    <td width="50%" valign="top">
+
+### 🛒 [App Kasir (GalaxyKasir)](https://github.com/dodokjr/App-Kasir)
+<sub>POS Web Application</sub>
+
+Aplikasi Point-of-Sale multi-cabang dengan pelacakan kehadiran kasir dan sistem izin multi-tier.
+
+<img src="https://img.shields.io/badge/Next.js-5b4fd6?style=flat-square" /> <img src="https://img.shields.io/badge/Google_Sheets-d6457e?style=flat-square" />
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### 📱 [Apk Learning](https://github.com/dodokjr/Apk-learning)
+<sub>Mobile Learning Platform</sub>
+
+Aplikasi mobile interaktif untuk sinkronisasi data dan pembelajaran mandiri yang responsif.
+
+<img src="https://img.shields.io/badge/React_Native-5b4fd6?style=flat-square" /> <img src="https://img.shields.io/badge/TypeScript-d6457e?style=flat-square" />
+
+</td>
+    <td width="50%" valign="top">
+
+### ⚡ [API Mfikria](https://github.com/dodokjr/api-mfikria)
+<sub>Backend API Service</sub>
+
+Kumpulan endpoint backend modular untuk mendukung berbagai layanan integrasi aplikasi web dan mobile.
+
+<img src="https://img.shields.io/badge/Node.js-5b4fd6?style=flat-square" /> <img src="https://img.shields.io/badge/Express-d6457e?style=flat-square" /> <img src="https://img.shields.io/badge/Database-1b8fc9?style=flat-square" />
+
+</td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/dodokjr?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore%20All%20Repositories-%E2%86%92-6e49f5?style=for-the-badge&logo=koding&logoColor=white" alt="All Repos" />
+    <img src="https://img.shields.io/badge/Lihat%20Semua%20Repositori-%E2%86%92-5b4fd6?style=for-the-badge&logo=github&logoColor=white" alt="Semua repositori" />
   </a>
 </p>
 
----
+<br/>
 
-### 📊 GitHub Stats & Metrics
+## 📊 GitHub Stats
 
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=dodokjr&theme=tokyonight&hide_border=true&border_radius=10" alt="Streak Stats" />
+<img src="https://streak-stats.demolab.com?user=dodokjr&hide_border=true&border_radius=14&background=1c1c27&ring=d6457e&fire=e0709a&currStreakNum=b9b0ff&currStreakLabel=8b7cf6&sideNums=c9c9d6&sideLabels=8e8ea3&dates=8e8ea3" alt="Streak stats" />
 
-  <br/><br/>
+<br/><br/>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=dodokjr&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dodokjr&langs_count=6&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Top Langs" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=dodokjr&show_icons=true&count_private=true&hide_border=true&border_radius=14&bg_color=1c1c27&title_color=b9b0ff&icon_color=e0709a&text_color=c9c9d6&ring_color=5b4fd6" alt="GitHub stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dodokjr&langs_count=6&layout=compact&hide_border=true&border_radius=14&bg_color=1c1c27&title_color=b9b0ff&text_color=c9c9d6" alt="Top languages" width="48%" />
 
-  <br/><br/>
+<br/><br/>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dodokjr&custom_title=Developer%20Activity%20Pulse&bg_color=1a1b26&color=6e49f5&line=6e49f5&point=7aa2f7&area_color=1a1b26&area=true&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dodokjr&custom_title=Developer%20Activity%20Pulse&bg_color=14141c&color=b9b0ff&line=8b7cf6&point=e0709a&area_color=5b4fd6&area=true&hide_border=true" width="100%" alt="Activity graph" />
+
+</div>
+
+<br/>
+
+## 🤝 Ayo Terhubung
+
+> Punya ide proyek, butuh kolaborasi, atau sekadar ingin ngobrol soal TypeScript & kopi? Kirim pesan kapan saja.
+
+<div align="center">
+
+<a href="mailto:ffikri604@gmail.com"><img src="https://img.shields.io/badge/Kirim%20Email-%E2%86%92-d6457e?style=for-the-badge&logo=gmail&logoColor=white" alt="Kirim email" /></a>
+<a href="https://mfikria.vercel.app"><img src="https://img.shields.io/badge/Kunjungi%20Website-%E2%86%92-5b4fd6?style=for-the-badge&logo=vercel&logoColor=white" alt="Kunjungi website" /></a>
+
+<br/><br/>
+
+<sub>🎨 Tema visual terinspirasi palet <a href="https://nusacss-app.vercel.app">Nusa CSS</a> · <a href="https://dodokjr.github.io/dodokjr/">Lihat versi web ↗</a></sub>
+
+<img src="./assets/footer.svg" alt="Terima kasih sudah mampir" width="100%" />
 
 </div>
