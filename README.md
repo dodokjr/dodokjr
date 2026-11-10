@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Muhammad Fikri Ardiyansah — Full-Stack Software Engineer" width="100%" />
+<img src="./banner.svg" alt="Muhammad Fikri Ardiyansah — Full-Stack Software Engineer" width="100%" />
 
 <br/>
 
@@ -185,16 +185,10 @@ Kumpulan endpoint backend modular untuk mendukung berbagai layanan integrasi apl
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=dodokjr&hide_border=true&border_radius=14&background=1c1c27&ring=d6457e&fire=e0709a&currStreakNum=b9b0ff&currStreakLabel=8b7cf6&sideNums=c9c9d6&sideLabels=8e8ea3&dates=8e8ea3" alt="Streak stats" />
+<img src="./stats.svg" alt="GitHub stats" width="49%" />
+<img src="./langs.svg" alt="Bahasa terbanyak" width="49%" />
 
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=dodokjr&show_icons=true&count_private=true&hide_border=true&border_radius=14&bg_color=1c1c27&title_color=b9b0ff&icon_color=e0709a&text_color=c9c9d6&ring_color=5b4fd6" alt="GitHub stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dodokjr&langs_count=6&layout=compact&hide_border=true&border_radius=14&bg_color=1c1c27&title_color=b9b0ff&text_color=c9c9d6" alt="Top languages" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dodokjr&custom_title=Developer%20Activity%20Pulse&bg_color=14141c&color=b9b0ff&line=8b7cf6&point=e0709a&area_color=5b4fd6&area=true&hide_border=true" width="100%" alt="Activity graph" />
+<sub>🔄 Diperbarui otomatis tiap 12 jam lewat GitHub Actions</sub>
 
 </div>
 
@@ -207,7 +201,7 @@ Kumpulan endpoint backend modular untuk mendukung berbagai layanan integrasi apl
 <div align="center">
 
 <a href="mailto:ffikri604@gmail.com"><img src="https://img.shields.io/badge/Kirim%20Email-%E2%86%92-d6457e?style=for-the-badge&logo=gmail&logoColor=white" alt="Kirim email" /></a>
-<a href="https://mfikria.vercel.app"><img src="https://img.shields.io/badge/Kunjungi%20Website-%E2%86%92-5b4fd6?style=for-the-badge&logo=vercel&logoColor=white" alt="Kunjungi website" /></a>
+<a href="https://mfikria.vercel.app/me"><img src="https://img.shields.io/badge/Kunjungi%20Website-%E2%86%92-5b4fd6?style=for-the-badge&logo=vercel&logoColor=white" alt="Kunjungi website" /></a>
 
 <br/><br/>
 
