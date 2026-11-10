@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" role="img" aria-label="Bahasa Terbanyak">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b7cf6"/><stop offset="0.55" stop-color="#e0709a"/><stop offset="1" stop-color="#3fb4e8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5b4fd6" stop-opacity="0.45"/><stop offset="1" stop-color="#5b4fd6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="r"><rect width="600" height="280" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="600" height="280" fill="#1c1c27"/>
+    <ellipse cx="560" cy="10" rx="220" ry="120" fill="url(#glow)"/>
+    <text x="28" y="40" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="url(#brand)">Bahasa Terbanyak</text>
+    <text x="300" y="150" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e8ea3">Menunggu data pertama dari GitHub Actions…</text>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="279" rx="16" fill="none" stroke="#33344a"/>
+</svg>

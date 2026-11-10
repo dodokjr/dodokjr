@@ -1,0 +1,48 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # tiap 12 jam
+  workflow_dispatch: {}        # bisa dijalankan manual dari tab Actions
+  push:
+    paths:
+      - "scripts/generate-stats.mjs"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: true
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate stats SVG
+        env:
+          GH_LOGIN: dodokjr
+          # Opsional: buat secret METRICS_TOKEN (PAT dengan scope read:user)
+          # agar kontribusi private ikut terhitung. Tanpa itu, GITHUB_TOKEN dipakai.
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-stats.mjs
+
+      - name: Commit jika ada perubahan
+        run: |
+          if git diff --quiet -- assets/stats.svg assets/langs.svg; then
+            echo "Tidak ada perubahan."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/langs.svg
+          git commit -m "chore: update github stats"
+          git pull --rebase
+          git push

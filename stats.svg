@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280" role="img" aria-label="GitHub Stats · dodokjr">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b7cf6"/><stop offset="0.55" stop-color="#e0709a"/><stop offset="1" stop-color="#3fb4e8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5b4fd6" stop-opacity="0.45"/><stop offset="1" stop-color="#5b4fd6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="r"><rect width="600" height="280" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="600" height="280" fill="#1c1c27"/>
+    <ellipse cx="560" cy="10" rx="220" ry="120" fill="url(#glow)"/>
+    <text x="28" y="40" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="url(#brand)">GitHub Stats · dodokjr</text>
+    <circle cx="37" cy="73" r="11" fill="#e0709a" fill-opacity="0.16"/>
+    <text x="37" y="77" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#e0709a">★</text>
+    <text x="58" y="78" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e8ea3">Total Stars</text>
+    <text x="278" y="78" text-anchor="end" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e8e8f0">–</text><circle cx="317" cy="73" r="11" fill="#8b7cf6" fill-opacity="0.16"/>
+    <text x="317" y="77" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8b7cf6">⌥</text>
+    <text x="338" y="78" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e8ea3">Commits (1 thn)</text>
+    <text x="558" y="78" text-anchor="end" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e8e8f0">–</text><circle cx="37" cy="109" r="11" fill="#3fb4e8" fill-opacity="0.16"/>
+    <text x="37" y="113" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#3fb4e8">⇄</text>
+    <text x="58" y="114" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e8ea3">Pull Requests</text>
+    <text x="278" y="114" text-anchor="end" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e8e8f0">–</text><circle cx="317" cy="109" r="11" fill="#e0709a" fill-opacity="0.16"/>
+    <text x="317" y="113" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#e0709a">!</text>
+    <text x="338" y="114" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e8ea3">Issues</text>
+    <text x="558" y="114" text-anchor="end" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e8e8f0">–</text><circle cx="37" cy="145" r="11" fill="#8b7cf6" fill-opacity="0.16"/>
+    <text x="37" y="149" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8b7cf6">▣</text>
+    <text x="58" y="150" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e8ea3">Repositori</text>
+    <text x="278" y="150" text-anchor="end" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e8e8f0">–</text><circle cx="317" cy="145" r="11" fill="#3fb4e8" fill-opacity="0.16"/>
+    <text x="317" y="149" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#3fb4e8">♥</text>
+    <text x="338" y="150" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e8ea3">Followers</text>
+    <text x="558" y="150" text-anchor="end" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e8e8f0">–</text><rect x="28" y="196" width="544" height="1" fill="#33344a"/><text x="118.66666666666667" y="232" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#b9b0ff">–</text>
+    <text x="118.66666666666667" y="254" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8e8ea3">Kontribusi (1 thn)</text><text x="300" y="232" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#e0709a">–</text>
+    <text x="300" y="254" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8e8ea3">Streak Saat Ini (hari)</text><text x="481.33333333333337" y="232" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#3fb4e8">–</text>
+    <text x="481.33333333333337" y="254" text-anchor="middle" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#8e8ea3">Streak Terpanjang (hari)</text>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="279" rx="16" fill="none" stroke="#33344a"/>
+</svg>
