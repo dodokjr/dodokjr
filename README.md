@@ -207,6 +207,6 @@ Kumpulan endpoint backend modular untuk mendukung berbagai layanan integrasi apl
 
 <sub>🎨 Tema visual terinspirasi palet <a href="https://nusacss-app.vercel.app">Nusa CSS</a> · <a href="https://dodokjr.github.io/dodokjr/">Lihat versi web ↗</a></sub>
 
-<img src="./assets/footer.svg" alt="Terima kasih sudah mampir" width="100%" />
+<img src="./footer.svg" alt="Terima kasih sudah mampir" width="100%" />
 
 </div>
